@@ -1,0 +1,91 @@
+html, body{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background-color:#A9A9A9;
+	font-family: Arial;
+}
+#wrap{
+	width:90%;
+	margin:0 auto;
+	background-color: rgba(113,141,120,1);
+}
+
+header{
+	background: rgb(113,141,120);
+background: linear-gradient(67deg, rgba(113,141,120,1) 10%, rgba(35,108,35,1) 49%, rgba(113,141,120,1) 91%);
+	text-align:center;
+	
+}
+
+header img{
+	width: 30%
+	
+}
+nav{
+	background-color:#550055;
+	text-align: center;
+	padding:10px 0;
+	font-family: Verdana;
+}
+
+nav a{
+	color:white;
+	padding: 10px 30px;
+	text-decoration:none;
+}
+nav a:hover{
+	color:white;
+	background-color:#440044;
+}
+
+nav li{
+	display:inline;
+}
+nav ul{
+	margin:0;
+	padding:0;
+}
+section{
+	padding: 20px;
+	overflow:auto;
+}
+section h1{
+	color:#550055;
+	font-size:180%;
+	margin:0;
+}
+section h2{
+	color:#550055;
+}
+section p{
+	color:white;
+}
+
+.sasquatch{
+	width: 20%;
+	float:right;
+	padding:10px;
+}
+.button{
+	background-color: #550055;
+	color: white;
+	text-decoration:none;
+	margin:15 px 0;
+	padding:10px;
+	display: inline-block;
+	border-radius: 8px;
+}
+
+a.button:hover{
+	background-color:#440044;
+}
+footer{
+	background-color:#550055;
+	color: white;
+	text-align: center;
+	font-weight: bold:
+	padding: 10px 0;
+}
