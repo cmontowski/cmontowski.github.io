@@ -1,0 +1,96 @@
+@import url(http://fonts.googleapis.com/css?family=Permanent+Marker);
+
+html, body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	background: #000 url("bg.jpg") no-repeat center top;
+	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+}
+#wrap {
+	width: 1000px;
+	margin: 0 auto;
+}
+header {
+	clear: both;
+	text-align:center;
+}
+#logo {
+	padding: 10px;
+}
+nav {
+	padding: 10px;
+}
+nav ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+nav li {
+	display: inline;
+	margin: 0 30px;
+}
+nav a {
+	color: #133450;
+	font-size:30px;
+	text-decoration:none;
+	font-weight: bold;
+	font-family: 'Permanent Marker', cursive;
+}
+nav a:hover {
+	color: white;
+}
+section {
+	background-color:rgba(0,0,0,0.3);
+}
+.welcome {
+	padding: 10px 15px;
+	margin: 20px 0;
+	overflow: auto;
+}
+footer {
+	background-color: transparent;
+	padding: 10px;
+	color: white;
+	text-align: center;
+	clear: both;
+}
+footer a {
+	color: #8CF0EF;
+}
+section h1{
+	margin:5px 20px;
+	padding:0;
+	font-size:75px;
+	color:white;
+	font-family:Georgia, serif;
+}
+section h2{
+	margin:5px 20px 3px;
+	padding:0;
+	font-size:25px;
+	color: #8CF0EF;
+	font-family: Georgia, serif;
+	font-weight:bold;
+}
+figure{
+	width:27%;
+	border: 1px solid white;
+	margin: 10px 24px;
+	text-align:center;
+	padding: 10px 5px;
+	background-color:rgba(0,0,0,1);
+	float:left;
+}
+
+figure img{
+	width:95%;
+}
+figcaption{
+	color:white;
+	font-size:90%;
+}
+article{
+	margin-left:10px;
+	margin-right:10px;
+}
