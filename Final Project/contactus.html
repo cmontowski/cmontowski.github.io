@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-160856191-1"></script>
+		<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+
+		gtag('config', 'UA-160856191-1');
+		</script>
+		<title>contactus</title>
+		 <link rel="stylesheet" href="themes/default/default.css" type="text/css" media="screen" />
+		<link rel="stylesheet" href="nivo-slider.css" type="text/css" media="screen" />
+		<link href="slideshow.css" rel="stylesheet" type="text/css">
+		<link href="adventures.css" rel="stylesheet" type="text/css">
+		<link href="https://fonts.googleapis.com/css2?family=Merienda:wght@700&display=swap" rel="stylesheet">
+	</head>
+	
+	<body id="contactus">
+	<div id="wrap">
+		<header>
+		<div class="slider-wrapper theme-default">
+            <div id="slider" class="nivoSlider">
+                <img src="images/slideshow1.png" data-thumb="images/slideshow1.png" alt="" />
+				<img src="images/slideshow2.png" data-thumb="images/slideshow2.png" alt="" />
+				<img src="images/slideshow3.jpg" data-thumb="images/slideshow3.jpg" alt="" />
+				<img src="images/slideshow4.jpg" data-thumb="images/slideshow4.jpg" alt="" />
+				<img src="images/slideshow5.jpg" data-thumb="images/slideshow5.jpg" alt=""/>
+            </div>
+		
+		</header>
+		
+	<nav>
+		<ul>
+				<li><a href="adventures.html">Home</a></li>
+				<li><a href="boating.html">Boating</a></li>
+				<li><a href="camping.html">Camping</a></li>
+				<li><a href="hiking.html">Hiking</a></li>
+				<li><a href="culture.html">Culture</a></li>
+				<li><a href="contactus.html">Contact Us</a></li>
+			</ul>
+		</nav>
+		<section>
+			<aside>
+			<ul>
+				<h3>Resources</h3>
+				<li><a href="https://www.seattle.gov/light/Boundary/tours.asp" target="_new">Boundary Dam</a></li>
+				<li><a href="https://www.fs.usda.gov/colville"target="_new">Colville National Forest</a></li>
+				<li><a href="https://www.fws.gov/refuge/little_pend_oreille/"target="_new">Little Pend Orielle</a></li>
+				<li><a href="https://parks.state.wa.us/493/Curlew-Lake"target="_new">Curlew Lake State Park</a></li>
+				<li><a href="https://www.nps.gov/laro/index.htm"target="_new">Lake Roosevelt</a></li>
+				<li><a href="https://www.wta.org/go-hiking/hikes/kettle-crest-trail"target="_new">Kettle Crest Trail</a></li>
+			</ul>
+			</aside>
+			<article>
+				<h1>Contact Us!</h1>
+				<p>Let us know if you have any questions by filling out this form. You can 
+				ask anything you want about our site or things to do in the Tri-County area.
+				You will be returned to the home page on completion</p>
+				<p>Required fields are marked with an asterisk</p>
+				<form method="post" action="adventures.html">
+				<fieldset>
+				<p><label for="fname">First Name*</label><br>
+				<input type="text" id="fname" required></p>
+				<p><label for="lname">Last Name*</label><br>
+				<input type="text" id="lname" required></p>
+				<p><label for="email">E-mail*</label><br>
+				<input type="email" id="email"required></p>
+				<p>How did you hear about this website?</p>
+					<p><input type="checkbox" id="search" name="howhear" value ="SearchEngine">
+					<label for="search">Search Engine</label><br>
+						<p><input type="checkbox" id="family" name="howhear" value ="family">
+					<label for="family">Family</label><br>
+						<p><input type="checkbox" id="friends" name="howhear" value ="friends">
+					<label for="friends">Friends</label><br>
+						<p><input type="checkbox" id="other" name="howhear" value ="other">
+					<label for="other">Other</label><br>
+				<p>What brought you to our website?</p>
+					<p><input type="checkbox" id="adventure" name="whatbrought" value="adventure">
+					<label for="adventure">Adventure</label><br>
+					<p><input type="checkbox" id="vacation" name="whatbrought" value="vacation">
+					<label for="vacation">Vacation</label><br>
+					<p><input type="checkbox" id="boating" name="whatbrought" value="boating">
+					<label for="boating">Boating</label><br>
+					<p><input type="checkbox" id="hiking" name="whatbrought" value="hiking">
+					<label for="hiking">Hiking</label><br>
+					<p><input type="checkbox" id="camping" name="whatbrought" value="camping">
+					<label for="camping">Camping</label><br>
+					<p><input type="checkbox" id="fishing" name="whatbrought" value="fishing">
+					<label for="fishing">Fishing</label><br>
+					<p><input type="checkbox" id="culture" name="whatbrought" value="culture">
+					<label for="culture">Culture</label><br>
+					<p><input type="checkbox" id="other" name="whatbrought" value="other">
+					<label for="other">Other</label><br>
+				<p>What questions do you have about Adventures in Tri-County WA?*</p>
+					<textarea name="questions" id="questions" placeholder="Please put your questions here" required></textarea><br>
+					<input type="submit" name="submit" value="Submit Form" class="button"></p>
+					</fieldset>
+					</form>
+			</article>
+		</section>
+		
+		<footer>
+			<p>Copyright &copy; Get Outside violators will be dumped in the lake</p>
+		</footer>
+		
+	</div> <!--close wrap-->
+		    <script type="text/javascript" src="scripts/jquery-1.9.0.min.js"></script>
+    <script type="text/javascript" src="jquery.nivo.slider.js"></script>
+    <script type="text/javascript">
+    $(window).load(function() {
+        $('#slider').nivoSlider();
+    });
+    </script>
+	</body>
+
+</html>
